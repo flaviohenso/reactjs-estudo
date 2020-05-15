@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from './components/Header'
+import Main from './pages/main'
 
 import './styles.css'
 
 //stateless components
 const App = () => (
   <div className="App">
-      <Header/>
-    </div>
+    <Header />
+    <Main />
+  </div>
 )
 
 //stateless components
