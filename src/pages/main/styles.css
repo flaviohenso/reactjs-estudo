@@ -58,7 +58,7 @@
 }
 
 .product-list .actions button[disabled] {
-    opacity: 1px;
+    opacity: 0.5;
     cursor: default;
 }
 
@@ -67,5 +67,5 @@
 }
 
 .product-list .actions button[disabled]:hover {
-    opacity: 0.5px;
+    opacity: 0.5;
 }
